@@ -63,10 +63,10 @@ export default function SideNav({ onAddPost }) {
             <User className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10" />
             {open && <span className="text-base sm:text-xl lg:text-3xl font-bold">Profile</span>}
           </Link>
-          <Link to="/settings" className={`flex items-center ${open ? "gap-4 px-5 py-4" : "justify-center py-4"} rounded-lg hover:bg-white/60 transition font-bold ${active('/settings') ? 'bg-blue-100 text-blue-600' : ''}`}>
+          {/* <Link to="/settings" className={`flex items-center ${open ? "gap-4 px-5 py-4" : "justify-center py-4"} rounded-lg hover:bg-white/60 transition font-bold ${active('/settings') ? 'bg-blue-100 text-blue-600' : ''}`}>
             <Settings className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10" />
             {open && <span className="text-base sm:text-xl lg:text-3xl font-bold">Settings</span>}
-          </Link>
+          </Link> */}
         </div>
       </nav>
 
